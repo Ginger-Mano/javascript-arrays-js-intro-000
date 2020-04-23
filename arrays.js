@@ -23,4 +23,3 @@ function destructivelyAddElementToEndOfArray([dog], bird) {
   array = [...array, bird];
   return array
 }
-

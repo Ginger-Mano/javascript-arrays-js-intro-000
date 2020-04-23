@@ -13,8 +13,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  var array = [dog];
-  array.push(bird);
+  var array = [array];
+  array.push(element);
   return array
 }
 

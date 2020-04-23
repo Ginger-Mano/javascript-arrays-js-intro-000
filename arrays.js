@@ -7,7 +7,7 @@ function addElementToBeginningOfArray([dog], bird) {
 }
 
 function destructivelyAddElementToBeginningOfArray([dog], bird) {
-  var array = [dog];
+  var array = addElementToBeginningOfArray()
   [bird, ...array]
-  array = [bird, ...array]
+  return array
 }

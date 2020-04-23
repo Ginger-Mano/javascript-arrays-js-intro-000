@@ -8,6 +8,6 @@ function addElementToBeginningOfArray([dog], bird) {
 
 function destructivelyAddElementToBeginningOfArray([dog], bird) {
   var array = [dog];
-  array.push(bird);
+  [...array, bird];
   return array
 }

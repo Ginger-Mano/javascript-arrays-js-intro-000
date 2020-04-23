@@ -20,6 +20,7 @@ function addElementToEndOfArray([dog], bird) {
 
 function destructivelyAddElementToEndOfArray([dog], bird) {
   var array = [dog];
-  array = [bird, ...array];
+  array = [...array, bird];
   return array
 }
+

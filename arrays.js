@@ -16,9 +16,8 @@ function addElementToEndOfArray(array, element) {
   return array
 }
 
-function destructivelyAddElementToEndOfArray([dog], bird) {
-  var array = [dog];
-  array = [...array, bird];
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
   return array
 }
 

@@ -26,5 +26,4 @@ function destructivelyAddElementToEndOfArray([dog], bird) {
 
 function accessElementInArray([1, 2], 2) {
   var pets = [1, 2, 3];
-  return pets[0];
 }
